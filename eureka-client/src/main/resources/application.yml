@@ -1,0 +1,9 @@
+server:
+  port: 8002 #运行端口号
+  spring:
+    application:
+      name: eureka-client #服务名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@eureka-7902:7902/eureka/,http://root:root@eureka-7901:7901/eureka/
